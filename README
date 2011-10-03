@@ -1,13 +1,11 @@
-ONLY MY TWITTER
-
-* Author
-Mitsuo NAKAJIMA
-Mail: s1011425 [at mark] u.tsukuba.ac.jp
+only my twitter
 
 * What's this?
 This product is a imitation of Twitter.
-You can use this like the original one but you don't have to make your tweet public.
-Your tweet are shown to only you.
+You can tweet just like Twitter but your tweet would never seen to anyone.
+
+* Platformss
+We support only MacOS X currently. 
 
 * Usage
 Type `tw 'hello. my name is Foo Bar'` and your tweet will be saved in your computer.
@@ -16,6 +14,12 @@ If you want to review your tweet, type `twlg [Regexp or some keywords]` and you 
 * Why?
 
 * TODO
-- make become able to uploading picture
-- web interface (with password authentication)
+- to become able to uploading picture
+- web interface (with password authentication) using RoR
+- delete, reply
+
+* Author
+Mitsuo NAKAJIMA
+Mail: s1011425 [at mark] u.tsukuba.ac.jp
+
 
