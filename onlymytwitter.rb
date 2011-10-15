@@ -31,6 +31,7 @@ db = TweetDB.new
 db.timeline.each { |row| puts row }
 
 while l = gets
-	db.update l.chomp
+	l.chomp!
+	db.update l.chomp if l != ''
 end
 
