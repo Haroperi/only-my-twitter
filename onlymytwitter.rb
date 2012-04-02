@@ -11,7 +11,7 @@ class TweetDB
 
 	def update str
 		date = `date +%s`.chomp
-		@db.execute("insert into tweet values(\"%s\", \"%s\", \"%s\");" % [@author, date, str])
+		@db.execute("insert into tweet values(\"%s\", \"%s\", '%s');" % [@author, date, str])
 	end
 
 	def timeline count = 10
